@@ -11,8 +11,8 @@ const SucessPage = () => {
           <img className=" " src={image} alt="" />
         </div>
         <div className="font-bold text-4xl">Authenticated</div>
-        <div className="text-gray-400 font-medium py-2 ">You have been authenticated successfully</div>
-        <div className="text-gray-400 font-extralight">
+        <div className="text-gray-300 font-medium py-2 ">You have been authenticated successfully</div>
+        <div className="text-gray-300 font-extralight">
          We will redirect to the page soon just wait !!!
         </div>
         <button className="pt-5" onClick={()=>navigate('/')}>Go Back</button>
